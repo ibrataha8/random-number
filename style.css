@@ -1,0 +1,43 @@
+/* Style du corps de la page */
+body {
+    background-color: #968f8f;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour la boîte des nombres */
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 50px;
+  }
+  
+  /* Style pour les nombres */
+  .nombre {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  /* Style pour les boutons */
+  button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton "Stop" */
+  #stop {
+    background-color: #f44336;
+  }
